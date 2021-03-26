@@ -1,0 +1,274 @@
+@media (max-width: 1399px)
+    .menu
+        &_item
+            padding-right: 26px
+@media (max-width: 1199px)
+    .menu
+        &_item
+            padding-right: 24px
+            &:last-child
+                border-right: none
+        &_link
+            font-size: 12px
+    .footer_mobile
+        display: flex
+        flex-direction: column
+        justify-content: center
+        .footer_mobilePadding
+            padding-top: 10px
+    .subheader
+        &_btn
+            width: 136px
+            font-size: 12px
+    
+@media (max-width: 991px)
+    .menu
+        padding-right: 10px
+        padding-left: 10px
+        &_item
+            padding-right: 16px
+        &_link
+            font-size: 11px
+    .subheader
+        &_btn
+            height: 38px
+            margin-top: 23px
+        &_logoPNG
+            width: 100%
+    .promo
+        &_title
+            font-size: 41px
+    .sub_promo
+        .row
+            // align-items: center
+        margin: 40px 0 42px 0
+        .title
+            margin-bottom: 0
+            font-size: 32px
+        .object_reason
+            flex-direction: column
+            .object_png
+                padding-top: 30px
+            .object_txt
+                font-size: 12px
+    .promo
+        &_title
+            margin-top: 30px
+    .mobile
+        &_text 
+            font-size: 18px
+        .title
+            margin-bottom: 10px
+            font-size: 32px
+        .wrapper1
+            width: 100%
+        .wrapper2
+            width: 100%
+        .wrapper3
+            width: 100%
+        .wrapper4
+            width: 100%
+        .wrapper5
+            width: 100%
+        .wrapper6
+            width: 100%
+    .car
+        padding-bottom: 0
+        &_img
+            width: 100%
+    .require
+        padding-top: 0
+    .world
+        .subtitle_blue
+            margin-top: 100px
+    .footer_links
+        width: 320px
+    .footer_mobile
+        display: flex
+        flex-direction: column
+        justify-content: center
+        .footer_mobilePadding
+            padding-top: 10px
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        justify-content: center
+        align-items: center
+        background-color: rgba(0,0,0, .8)
+        transition: .8s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            margin-bottom: 2px
+            background-color: #fff
+            transition: .5s all
+        &_active
+            span
+                margin-bottom: -2px 
+                &:nth-child(1)
+                    transform: rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        .phone_number
+            display: block
+            margin-top: 10px
+            color: white
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: center
+        &_btn
+            width: 100%
+            height: 40px
+            margin: 0 auto
+            display: block
+            margin-top: 10px
+        &_title
+            line-height: 45px
+    .promo
+        .row
+            align-items: baseline
+    .subpromo
+        .object_png
+            &:last-child
+                padding-top: 0 
+    .car
+        padding-bottom: 40px
+        min-height: 700px
+        .title
+            font-size: 36px
+            margin-bottom: 17px
+    .mobile
+        padding-bottom: 1px
+        .wrapper1
+            margin-left: 0
+        .wrapper2
+            margin-left: 0
+        .wrapper3
+            margin-left: 0
+        .wrapper4
+            margin-left: 0
+        .wrapper5
+            margin-left: 0
+        .wrapper6
+            margin-left: 0
+            
+    .require
+        .title
+            font-size: 37px
+    .footer_links
+        display: none
+        .mainLinks_footer 
+            font-size: 12px
+    .footer_links_sub
+        flex-wrap: wrap
+        justify-content: center
+        .margin_footerLink
+            margin-left: 5px
+@media (max-width: 320px)
+    .subheader
+        .txt_logo
+            display: none
+        &_logoPNG
+            padding-top: 19px
+        &_btn
+            width: 135px
+            height: 30px
+    .phone_number
+        padding-top: 10px
+    .promo
+        &_title
+            font-size: 36px
+        .sub_title
+            font-size: 22px
+            margin-top: 20px
+        .txt_title
+            display: none
+        .title_btn
+            margin-top: 70px
+            width: 230px
+            height: 60px
+    .sub_promo
+        .title
+            font-size: 28px
+    .mobile
+        &_text
+            font-size: 14px
+        .title
+            font-size: 22px
+            margin-top: 10px
+        .subtitle
+            font-size: 15px
+        &_wrapper
+            margin-left: 0
+            width: 100%
+        .wrapper1
+            width: 100%
+        .wrapper2
+            width: 100%
+        .wrapper3
+            width: 100%
+        .wrapper4
+            width: 100%
+        .wrapper5
+            width: 100%
+        .wrapper6
+            width: 100%
+    .car
+        .title
+            font-size: 30px
+    .require
+        li
+            font-size: 14px
+        &_title
+            font-size: 19px
+    .less_font
+        font-size: 14px
+    .footer_wrapper
+        flex-direction: column
+    .footer_mobile
+        flex-direction: row
+        flex-wrap: wrap
+        padding-right: 5px
+        width: 100%
+        height: 100%
+    .footer_social
+        
+    .footer_divider
+        width: 66%
+    .relative_footer
+        display: none
+    footer
+        padding-right: 20px
+    .world
+        .title
+            font-size: 34px
